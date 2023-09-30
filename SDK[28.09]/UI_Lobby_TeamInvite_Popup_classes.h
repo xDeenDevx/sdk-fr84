@@ -1,0 +1,52 @@
+// WidgetBlueprintGeneratedClass UI_Lobby_TeamInvite_Popup.UI_Lobby_TeamInvite_Popup_C
+// Size: 0x491 (Inherited: 0x348)
+struct UUI_Lobby_TeamInvite_Popup_C : USolarUserWidget {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x348(0x08)
+	struct UWidgetAnimation* RightToLeft_Anim; // 0x350(0x08)
+	struct USolarButton* Btn_Join_Common; // 0x358(0x08)
+	struct UButton* Btn_Player; // 0x360(0x08)
+	struct UButton* Btn_Player_3; // 0x368(0x08)
+	struct UHorizontalBox* HorizentalBox_Spectator; // 0x370(0x08)
+	struct UHorizontalBox* HorizontalBox_CreateRoom_Invitation; // 0x378(0x08)
+	struct UHorizontalBox* HorizontalBox_Home_Invitation; // 0x380(0x08)
+	struct UHorizontalBox* HorizontalBox_Player; // 0x388(0x08)
+	struct UHorizontalBox* HorizontalBox_Team_Application; // 0x390(0x08)
+	struct UImage* Img_Btn_Join; // 0x398(0x08)
+	struct UImage* Img_GameMode_Icon; // 0x3a0(0x08)
+	struct UImage* Img_GameMode_Icon_3; // 0x3a8(0x08)
+	struct UImage* Img_Join_Common_Light; // 0x3b0(0x08)
+	struct UImage* Img_Title_BG_2; // 0x3b8(0x08)
+	struct UOverlay* Overlay_Avatar; // 0x3c0(0x08)
+	struct UOverlay* Overlay_Avatar_3; // 0x3c8(0x08)
+	struct UCanvasPanel* Panel_Info_CreateRoom_Invitation; // 0x3d0(0x08)
+	struct UCanvasPanel* Panel_Info_Invitation; // 0x3d8(0x08)
+	struct UCanvasPanel* Panel_Pop_Common; // 0x3e0(0x08)
+	struct UProgressBar* ProgressBar_CountDown; // 0x3e8(0x08)
+	struct USolarRichTextBlock* RichTxt_LvlRequired; // 0x3f0(0x08)
+	struct UScaleBox* ScaleBox_Match; // 0x3f8(0x08)
+	struct USolarTextBlock* Text_RemarkName; // 0x400(0x08)
+	struct USolarTextBlock* Txt_Capacity; // 0x408(0x08)
+	struct USolarTextBlock* Txt_GameMode_2; // 0x410(0x08)
+	struct USolarTextBlock* Txt_GameMode_3; // 0x418(0x08)
+	struct USolarTextBlock* Txt_Home; // 0x420(0x08)
+	struct USolarTextBlock* Txt_Invitation; // 0x428(0x08)
+	struct USolarTextBlock* Txt_Join_Common; // 0x430(0x08)
+	struct USolarTextBlock* Txt_Map; // 0x438(0x08)
+	struct USolarTextBlock* Txt_Map_2; // 0x440(0x08)
+	struct UTextBlock* Txt_OBCurr; // 0x448(0x08)
+	struct USolarTextBlock* Txt_OBTotal; // 0x450(0x08)
+	struct USolarTextBlock* Txt_PlayerIn; // 0x458(0x08)
+	struct USolarTextBlock* Txt_Team_Invitation_Info; // 0x460(0x08)
+	struct USolarTextBlock* Txt_Team_Invitation_Info_2; // 0x468(0x08)
+	struct UUI_Component_Close_C* UI_Component_Close; // 0x470(0x08)
+	struct UUI_Component_PlayerHead_C* UI_Component_PlayerHead_2; // 0x478(0x08)
+	struct UUI_Component_PlayerHead_C* UI_Component_PlayerHead_3; // 0x480(0x08)
+	struct UUI_Component_PlayerName_C* UI_Component_PlayerName; // 0x488(0x08)
+	enum class T_Type_Invitation Pop_Type; // 0x490(0x01)
+
+	struct FString GetModuleName(); // Function UI_Lobby_TeamInvite_Popup.UI_Lobby_TeamInvite_Popup_C.GetModuleName // (Event|Public|HasOutParms|BlueprintCallable|BlueprintEvent|Const) // @ game+0x2649560
+	void SetType(enum class T_Type_Invitation Pop_Type); // Function UI_Lobby_TeamInvite_Popup.UI_Lobby_TeamInvite_Popup_C.SetType // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x2649560
+	void PreConstruct(bool IsDesignTime); // Function UI_Lobby_TeamInvite_Popup.UI_Lobby_TeamInvite_Popup_C.PreConstruct // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x2649560
+	void ExecuteUbergraph_UI_Lobby_TeamInvite_Popup(int32_t EntryPoint); // Function UI_Lobby_TeamInvite_Popup.UI_Lobby_TeamInvite_Popup_C.ExecuteUbergraph_UI_Lobby_TeamInvite_Popup // (Final|UbergraphFunction) // @ game+0x2649560
+};
+

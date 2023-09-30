@@ -1,6 +1,0 @@
-namespace offsets
-{
-	namespace UMovieSceneKeyProxy
-	{
-	}
-} 

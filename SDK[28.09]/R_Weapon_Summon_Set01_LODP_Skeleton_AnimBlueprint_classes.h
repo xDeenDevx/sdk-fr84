@@ -1,0 +1,24 @@
+// DynamicClass R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint.R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_C
+// Size: 0x650 (Inherited: 0x2d0)
+struct UR_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_C : UWeaponAnimInstance {
+	struct FAnimNode_Root AnimGraphNode_Root; // 0x2d0(0x30)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4; // 0x300(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; // 0x328(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; // 0x350(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; // 0x378(0x28)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; // 0x3a0(0x78)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; // 0x418(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; // 0x448(0x78)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; // 0x4c0(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; // 0x4f0(0x78)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; // 0x568(0x30)
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; // 0x598(0xb0)
+	char pad_648[0x8]; // 0x648(0x08)
+
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_F2855A6E43032126BE9962A2F5370D30(); // Function R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint.R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_F2855A6E43032126BE9962A2F5370D30 // (Native|Public) // @ game+0x15647e0
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_DDAC6AEB489D5E9CB3D09A9B9AA278F3(); // Function R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint.R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_DDAC6AEB489D5E9CB3D09A9B9AA278F3 // (Native|Public) // @ game+0x1570b30
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_A3D9D1AF449F798FCECE89AEF2D7661C(); // Function R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint.R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_A3D9D1AF449F798FCECE89AEF2D7661C // (Native|Public) // @ game+0x1570c70
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_35F7023940C49D3FCC85AD9F57FAFFCB(); // Function R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint.R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_35F7023940C49D3FCC85AD9F57FAFFCB // (Native|Public) // @ game+0x1564800
+	void AnimGraph(struct FPoseLink& bpp__AnimGraph__pf); // Function R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint.R_Weapon_Summon_Set01_LODP_Skeleton_AnimBlueprint_C.AnimGraph // (Native|Public|HasOutParms|BlueprintCallable) // @ game+0x15be980
+};
+
