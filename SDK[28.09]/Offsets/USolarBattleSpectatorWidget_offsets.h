@@ -1,0 +1,6 @@
+namespace offsets
+{
+	namespace USolarBattleSpectatorWidget
+	{
+	}
+} 

@@ -1,0 +1,72 @@
+namespace offsets
+{
+	namespace UHoudiniInput
+	{
+			constexpr auto Name = 0x28; // Size: 16, Type: struct FString
+			constexpr auto Label = 0x38; // Size: 16, Type: struct FString
+			constexpr auto Type = 0x48; // Size: 1, Type: enum class EHoudiniInputType
+			constexpr auto PreviousType = 0x49; // Size: 1, Type: enum class EHoudiniInputType
+			constexpr auto AssetNodeId = 0x4c; // Size: 4, Type: int32_t
+			constexpr auto InputNodeId = 0x50; // Size: 4, Type: int32_t
+			constexpr auto InputIndex = 0x54; // Size: 4, Type: int32_t
+			constexpr auto ParmId = 0x58; // Size: 4, Type: int32_t
+			constexpr auto bIsObjectPathParameter = 0x5c; // Size: 1, Type: bool
+			constexpr auto CreatedDataNodeIds = 0x60; // Size: 16, Type: struct TArray<int32_t>
+			constexpr auto bHasChanged = 0x70; // Size: 1, Type: bool
+			constexpr auto bNeedsToTriggerUpdate = 0x71; // Size: 1, Type: bool
+			constexpr auto CachedBounds = 0x74; // Size: 28, Type: struct FBox
+			constexpr auto help = 0x90; // Size: 16, Type: struct FString
+			constexpr auto KeepWorldTransform = 0xa0; // Size: 1, Type: enum class EHoudiniXformType
+			constexpr auto bPackBeforeMerge = 0xa1; // Size: 1, Type: bool
+			constexpr auto bImportAsReference = 0xa2; // Size: 1, Type: bool
+			constexpr auto bImportAsReferenceRotScaleEnabled = 0xa3; // Size: 1, Type: bool
+			constexpr auto bImportAsReferenceBboxEnabled = 0xa4; // Size: 1, Type: bool
+			constexpr auto bImportAsReferenceMaterialEnabled = 0xa5; // Size: 1, Type: bool
+			constexpr auto bExportLODs = 0xa6; // Size: 1, Type: bool
+			constexpr auto bExportSockets = 0xa7; // Size: 1, Type: bool
+			constexpr auto bExportColliders = 0xa8; // Size: 1, Type: bool
+			constexpr auto bExportMaterialParameters = 0xa9; // Size: 1, Type: bool
+			constexpr auto bCookOnCurveChanged = 0xaa; // Size: 1, Type: bool
+			constexpr auto GeometryInputObjects = 0xb0; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto bStaticMeshChanged = 0xc0; // Size: 1, Type: bool
+			constexpr auto AssetInputObjects = 0xc8; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto bInputAssetConnectedInHoudini = 0xd8; // Size: 1, Type: bool
+			constexpr auto CurveInputObjects = 0xe0; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto DefaultCurveOffset = 0xf0; // Size: 4, Type: float
+			constexpr auto bAddRotAndScaleAttributesOnCurves = 0xf4; // Size: 1, Type: bool
+			constexpr auto bUseLegacyInputCurves = 0xf5; // Size: 1, Type: bool
+			constexpr auto LandscapeInputObjects = 0xf8; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto bLandscapeHasExportTypeChanged = 0x108; // Size: 1, Type: bool
+			constexpr auto LandscapeSplinesInputObjects = 0x110; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto FoliageInputObjects = 0x120; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto WorldSMCInputObjects = 0x130; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto PointCloudInputObjects = 0x140; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto WorldInputObjects = 0x150; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto TextureInputObjects = 0x160; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto WorldInputBoundSelectorObjects = 0x170; // Size: 16, Type: struct TArray<struct AActor*>
+			constexpr auto bIsWorldInputBoundSelector = 0x180; // Size: 1, Type: bool
+			constexpr auto bWorldInputBoundSelectorAutoUpdate = 0x181; // Size: 1, Type: bool
+			constexpr auto UnrealSplineResolution = 0x184; // Size: 4, Type: float
+			constexpr auto SkeletalInputObjects = 0x188; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto GeometryCollectionInputObjects = 0x198; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto LandscapeSelectedComponents = 0x1a8; // Size: 80, Type: struct TSet<struct ULandscapeComponent*>
+			constexpr auto InputNodesPendingDelete = 0x1f8; // Size: 80, Type: struct TSet<int32_t>
+			constexpr auto LastInsertedInputs = 0x248; // Size: 16, Type: struct TArray<struct UHoudiniInputHoudiniSplineComponent*>
+			constexpr auto LastUndoDeletedInputs = 0x258; // Size: 16, Type: struct TArray<struct UHoudiniInputObject*>
+			constexpr auto bUpdateInputLandscape = 0x268; // Size: 1, Type: bool
+			constexpr auto LandscapeExportType = 0x269; // Size: 1, Type: enum class EHoudiniLandscapeExportType
+			constexpr auto bLandscapeExportSelectionOnly = 0x26a; // Size: 1, Type: bool
+			constexpr auto bLandscapeAutoSelectComponent = 0x26b; // Size: 1, Type: bool
+			constexpr auto bLandscapeExportMaterials = 0x26c; // Size: 1, Type: bool
+			constexpr auto bLandscapeExportLighting = 0x26d; // Size: 1, Type: bool
+			constexpr auto bLandscapeExportNormalizedUVs = 0x26e; // Size: 1, Type: bool
+			constexpr auto bLandscapeExportTileUVs = 0x26f; // Size: 1, Type: bool
+			constexpr auto bCanDeleteHoudiniNodes = 0x270; // Size: 1, Type: bool
+			constexpr auto bAutoSelectInputType = 0x271; // Size: 1, Type: bool
+			constexpr auto bEnableSMCWorldFilter = 0x272; // Size: 1, Type: bool
+			constexpr auto bIsIncludeStaticMesh = 0x273; // Size: 1, Type: bool
+			constexpr auto bNeedSendModelMaterial = 0x274; // Size: 1, Type: bool
+			constexpr auto bNeedSendDataTableModel = 0x275; // Size: 1, Type: bool
+			constexpr auto bNeedSendFoliageInstanceCustomData = 0x276; // Size: 1, Type: bool
+	}
+} 

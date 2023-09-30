@@ -1,0 +1,69 @@
+namespace offsets
+{
+	namespace ULimNativeLowLevel
+	{
+			constexpr auto OnEvent = 0x28; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnLog = 0x38; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnCall = 0x48; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSetConfig = 0x58; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSetAllConfigs = 0x68; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetConfig = 0x78; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetAllConfigs = 0x88; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnLogin = 0x98; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnLoginV2 = 0xa8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnLogout = 0xb8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSendMsg = 0xc8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnRevokeMsg = 0xd8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetMsgs = 0xe8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetMsgsV2 = 0xf8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSetMsgRead = 0x108; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSetMsgState = 0x118; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnCreateConv = 0x128; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnDestroyConv = 0x138; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnClearConv = 0x148; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetConvs = 0x158; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetConv = 0x168; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSetConvRead = 0x178; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSetConvSticky = 0x188; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSetConvMute = 0x198; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetConvAttr = 0x1a8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetConvAllAttrs = 0x1b8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSetConvAttr = 0x1c8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnCreateGroup = 0x1d8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnJoinGroup = 0x1e8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnQuitGroup = 0x1f8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnDestroyGroup = 0x208; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetGroup = 0x218; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSetGroup = 0x228; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetGroups = 0x238; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetGroupAttr = 0x248; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetGroupAllAttrs = 0x258; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnSetGroupAttr = 0x268; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetGroupMembers = 0x278; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetGroupMember = 0x288; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnAddGroupMember = 0x298; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnRemoveGroupMember = 0x2a8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetFriends = 0x2b8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnRemoveFriend = 0x2c8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetFriendRequests = 0x2d8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnCreateFriendRequest = 0x2e8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnAcceptFriendRequest = 0x2f8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnRefuseFriendRequest = 0x308; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnCancelFriendRequest = 0x318; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetBlockees = 0x328; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnAddToBlockee = 0x338; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnRemoveFromBlockee = 0x348; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnBlockeeExists = 0x358; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetUser = 0x368; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetUsers = 0x378; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetUsersState = 0x388; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetOssToken = 0x398; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetGMEToken = 0x3a8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnReportMsg = 0x3b8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnTranslateText = 0x3c8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnCheckImage = 0x3d8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetMiscConfigInfo = 0x3e8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetConvChatLevelConfig = 0x3f8; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto OnGetConnState = 0x408; // Size: 16, Type: struct FMulticastInlineDelegate
+	}
+} 
