@@ -1,0 +1,27 @@
+// BlueprintGeneratedClass BP_SolarWaterActor.BP_SolarWaterActor_C
+// Size: 0x5f8 (Inherited: 0x590)
+struct ABP_SolarWaterActor_C : ASolarWaterActorNew {
+	struct UMaterialInterface* Extrem; // 0x590(0x08)
+	struct UMaterialInterface* Ultra; // 0x598(0x08)
+	struct UMaterialInterface* HDR; // 0x5a0(0x08)
+	struct UMaterialInterface* HD; // 0x5a8(0x08)
+	struct UMaterialInterface* Balanced; // 0x5b0(0x08)
+	struct UMaterialInterface* Smooth; // 0x5b8(0x08)
+	bool UnderWater; // 0x5c0(0x01)
+	char pad_5C1[0x7]; // 0x5c1(0x07)
+	struct UMaterialInterface* FogMaterial; // 0x5c8(0x08)
+	bool PostState_2; // 0x5d0(0x01)
+	bool PostState_3; // 0x5d1(0x01)
+	bool PostState_4; // 0x5d2(0x01)
+	bool GraphicsLevelState; // 0x5d3(0x01)
+	enum class ESolarGraphicsQualityLevel GraphicsLevelCache; // 0x5d4(0x01)
+	bool Refresh; // 0x5d5(0x01)
+	bool DebugMode; // 0x5d6(0x01)
+	bool IsPCPlatform; // 0x5d7(0x01)
+	enum class ESolarGraphicsQualityLevel DebugGraphicsLevel; // 0x5d8(0x01)
+	char pad_5D9[0x7]; // 0x5d9(0x07)
+	struct UMaterialInterface* Performance; // 0x5e0(0x08)
+	struct UMaterialInterface* CutlineMaterial; // 0x5e8(0x08)
+	struct USolarPostProcessSettingItem* SolarPostProfile; // 0x5f0(0x08)
+};
+
