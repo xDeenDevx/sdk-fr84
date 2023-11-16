@@ -1,0 +1,3 @@
+		DWORD offset_u_world = 0x70352d8;
+		DWORD offset_g_names = 0x6ebd640;
+		DWORD offset_g_obj = 0x6ed5fc0;
